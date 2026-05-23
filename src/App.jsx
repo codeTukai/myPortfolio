@@ -160,7 +160,6 @@ export default function App() {
             >
               Live Demo
             </a>
-
             <a
               href={project.github}
               target="_blank"
