@@ -25,21 +25,24 @@ export default function App() {
       desc: "Modern admin dashboard with authentication, product management, analytics, and responsive UI.",
       tags: ["React", "JavaScript", "Tailwind", "Node.js"],
       live: "https://admin-repo-olive.vercel.app",
-      github: "https://github.com/codeTukai"
+      github: "https://github.com/codeTukai",
+      linkedin:"https://www.linkedin.com/in/tukaighosh753"
     },
     {
       title: "Authentication System",
       desc: "Full MERN authentication system with JWT authentication, OTP verification, and password reset.",
       tags: ["Appwrite", "JavaScript", "React.js", "React-Redux"],
       live: "redux-mega.vercel.app",
-      github: "https://github.com/codeTukai"
+      github: "https://github.com/codeTukai",
+      linkedin:"https://www.linkedin.com/in/tukaighosh753"
     },
     {
       title: "Productivity Mobile App",
       desc: "React Native + Expo productivity application with clean UI and modern mobile experience.",
       tags: ["React Native", "Expo", "TypeScript"],
       live: "#",
-      github: "https://github.com/codeTukai"
+      github: "https://github.com/codeTukai",
+      linkedin:"https://www.linkedin.com/in/tukaighosh753"
     },
   ];
 
@@ -167,6 +170,14 @@ export default function App() {
               className="border border-zinc-700 hover:border-pink-500 hover:text-pink-400 hover:scale-105 hover:-translate-y-1 transition duration-300 px-4 py-2 rounded-xl text-sm font-semibold"
             >
               GitHub
+            </a>
+            <a
+              href={project.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-zinc-700 hover:border-pink-500 hover:text-pink-400 hover:scale-105 hover:-translate-y-1 transition duration-300 px-4 py-2 rounded-xl text-sm font-semibold"
+            >
+              Linkedin
             </a>
 
           </div>
