@@ -6,6 +6,7 @@ export default function App() {
   "TypeScript",
   "React Native",
   "Tailwind CSS",
+  "Context Api",
   "Redux Toolkit",
   "Node.js",
   "Express.js",
@@ -41,6 +42,14 @@ export default function App() {
       desc: "React Native + Expo productivity application with clean UI and modern mobile experience.",
       tags: ["React Native", "Expo", "TypeScript"],
       live: "#",
+      github: "https://github.com/codeTukai",
+      linkedin:"https://www.linkedin.com/in/tukaighosh753"
+    },
+    {
+      title: "A small Todo Application",
+      desc: "React and Context Api with adding Update And Delete Functionality",
+      tags: ["React", "Context Api"],
+      live: "https://todo-app-sigma-flax-45.vercel.app/",
       github: "https://github.com/codeTukai",
       linkedin:"https://www.linkedin.com/in/tukaighosh753"
     },
