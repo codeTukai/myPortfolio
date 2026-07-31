@@ -1,66 +1,93 @@
-
 export default function App() {
- const skills = [
-  "React.js",
-  "JavaScript",
-  "TypeScript",
-  "React Native",
-  "Tailwind CSS",
-  "Context Api",
-  "Redux Toolkit",
-  "Node.js",
-  "Express.js",
-  "Axios",
-  "MongoDB",
-  "Appwrite",
-  "Git",
-  "GitHub",
-  "C Programming",
-  "HTML5",
-  "CSS3"
-];
+  const skills = [
+    "React.js",
+    "React 19",
+    "JavaScript (ES6+)",
+    "TypeScript",
+    "Next.js",
+    "React Native",
+    "Expo",
+    "Tailwind CSS",
+    "HTML5",
+    "CSS3",
+    "Context API",
+    "Redux Toolkit",
+    "Recoil",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "REST API",
+    "JWT Authentication",
+    "Axios",
+    "Appwrite",
+    "Git",
+    "GitHub",
+    "Responsive Design",
+    "Figma (Learning)",
+    "C Programming",
+  ];
 
   const projects = [
     {
       title: "Ecommerce Admin Dashboard",
-      desc: "Modern admin dashboard with authentication, product management, analytics, and responsive UI.",
-      tags: ["React", "JavaScript", "Tailwind", "Node.js"],
+      desc: "Modern MERN admin dashboard with authentication, product management, categories, analytics, image uploads, and responsive UI.",
+      tags: [
+        "React",
+        "Redux Toolkit",
+        "Node.js",
+        "MongoDB",
+        "JWT",
+      ],
       live: "https://admin-repo-olive.vercel.app",
       github: "https://github.com/codeTukai",
-      linkedin:"https://www.linkedin.com/in/tukaighosh753"
+      linkedin: "https://www.linkedin.com/in/tukaighosh753",
     },
+
+    {
+      title: "Hospital Management System",
+      desc: "Backend API for managing patients, doctors, appointments, medical records, authentication, billing, and role-based access.",
+      tags: ["Node.js", "Express", "MongoDB", "JWT", "REST API"],
+      live: null,
+      github: "https://github.com/codeTukai",
+      linkedin: "https://www.linkedin.com/in/tukaighosh753",
+    },
+
     {
       title: "Authentication System",
-      desc: "Full MERN authentication system with JWT authentication, OTP verification, and password reset.",
-      tags: ["Appwrite", "JavaScript", "React.js", "React-Redux"],
-      live: "redux-mega.vercel.app",
+      desc: "Complete MERN authentication with JWT, OTP verification, email verification, password reset, and protected routes.",
+      tags: ["React", "Redux Toolkit", "Node.js", "MongoDB"],
+      live: "https://redux-mega.vercel.app",
       github: "https://github.com/codeTukai",
-      linkedin:"https://www.linkedin.com/in/tukaighosh753"
+      linkedin: "https://www.linkedin.com/in/tukaighosh753",
     },
+
     {
       title: "Productivity Mobile App",
-      desc: "React Native + Expo productivity application with clean UI and modern mobile experience.",
+      desc: "Cross-platform productivity app built with React Native and Expo featuring a clean UI and modern mobile experience.",
       tags: ["React Native", "Expo", "TypeScript"],
-      live: "#",
+      live: null,
       github: "https://github.com/codeTukai",
-      linkedin:"https://www.linkedin.com/in/tukaighosh753"
+      linkedin: "https://www.linkedin.com/in/tukaighosh753",
     },
+
     {
-      title: "A small Todo Application",
-      desc: "React and Context Api with adding Update And Delete Functionality",
-      tags: ["React", "Context Api"],
+      title: "Todo Application",
+      desc: "Task management application built using React Context API with complete CRUD functionality and responsive design.",
+      tags: ["React", "Context API", "CRUD"],
       live: "https://todo-app-sigma-flax-45.vercel.app/",
       github: "https://github.com/codeTukai",
-      linkedin:"https://www.linkedin.com/in/tukaighosh753"
+      linkedin: "https://www.linkedin.com/in/tukaighosh753",
     },
   ];
 
   return (
     <div className="min-h-screen bg-black text-white">
-      <section className="max-w-7xl mx-auto px-6 py-16 grid lg:grid-cols-2 gap-12 items-center">
+      {/* Hero */}
+      <section className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <p className="text-pink-500 font-semibold tracking-widest uppercase mb-3">
-            Frontend Developer
+            Frontend Developer • React Developer
           </p>
 
           <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
@@ -68,56 +95,58 @@ export default function App() {
           </h1>
 
           <p className="text-gray-300 text-lg leading-8 mb-8">
-            I build scalable frontend applications, ecommerce platforms,
-            admin dashboards, and modern MERN stack applications using React,
-            TypeScript, and modern web technologies.
+            I'm a frontend-focused full-stack developer specializing in React,
+            TypeScript, and modern JavaScript. I build scalable web
+            applications, admin dashboards, ecommerce platforms, and REST APIs
+            using the MERN stack while focusing on clean UI, performance, and
+            great user experience.
           </p>
 
-          <div className="flex flex-wrap gap-4 mb-10">
-
-            {/* CONTACT BUTTON */}
+          <div className="flex flex-wrap gap-4">
             <a
               href="mailto:tukaighosh753@gmail.com"
-              className="bg-pink-500 hover:bg-pink-600 transition px-6 py-3 rounded-2xl font-semibold shadow-lg"
+              className="bg-pink-500 hover:bg-pink-600 px-6 py-3 rounded-xl font-semibold transition"
             >
               Contact Me
             </a>
 
-            {/* RESUME BUTTON */}
             <a
               href="/resume.pdf"
               download
-              className="border border-pink-500 text-pink-400 hover:bg-pink-500 hover:text-white transition px-6 py-3 rounded-2xl font-semibold"
+              className="border border-pink-500 text-pink-400 hover:bg-pink-500 hover:text-white px-6 py-3 rounded-xl font-semibold transition"
             >
               Download Resume
             </a>
-
           </div>
         </div>
 
-        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 shadow-2xl">
-          <h2 className="text-2xl font-bold mb-6 text-pink-400">
+        {/* About */}
+        <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
+          <h2 className="text-2xl font-bold text-pink-500 mb-6">
             About Me
           </h2>
 
-          <p className="text-gray-300 leading-8 mb-5">
-            Passionate frontend developer focused on building responsive,
-            scalable, and modern web applications with clean UI and reusable
-            architecture.
+          <p className="text-gray-300 leading-8">
+            I'm passionate about building modern, responsive, and scalable web
+            applications. I enjoy creating reusable components, developing REST
+            APIs, optimizing performance, and solving real-world problems with
+            React and the MERN stack. Currently, I'm learning Figma, improving
+            my UI/UX skills, and exploring advanced React concepts.
           </p>
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-6 py-10">
+      {/* Skills */}
+      <section className="max-w-7xl mx-auto px-6 py-16">
         <h2 className="text-4xl font-bold mb-8">
           Skills <span className="text-pink-500">& Tech Stack</span>
         </h2>
 
         <div className="flex flex-wrap gap-4">
-          {skills.map((skill, index) => (
+          {skills.map((skill) => (
             <div
-              key={index}
-              className="px-5 py-3 rounded-2xl bg-zinc-900 border border-zinc-800"
+              key={skill}
+              className="px-5 py-3 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-pink-500 transition"
             >
               {skill}
             </div>
@@ -125,79 +154,75 @@ export default function App() {
         </div>
       </section>
 
+      {/* Projects */}
       <section className="max-w-7xl mx-auto px-6 py-20">
-  <h2 className="text-4xl font-bold mb-10">
-    Featured <span className="text-pink-500">Projects</span>
-  </h2>
+        <h2 className="text-4xl font-bold mb-10">
+          Featured <span className="text-pink-500">Projects</span>
+        </h2>
 
-  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-    {projects.map((project, index) => (
-
-      <div
-        key={index}
-        className="bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden hover:-translate-y-2 hover:border-pink-500 transition duration-300 shadow-xl"
-      >
-
-        <div className="h-48 bg-gradient-to-br from-pink-500/30 to-purple-500/20" />
-
-        <div className="p-6">
-
-          <h3 className="text-2xl font-semibold mb-4">
-            {project.title}
-          </h3>
-
-          <p className="text-gray-400 leading-7 mb-6">
-            {project.desc}
-          </p>
-
-          <div className="flex flex-wrap gap-2 mb-6">
-            {project.tags.map((tag, i) => (
-              <span
-                key={i}
-                className="text-sm px-3 py-1 rounded-full bg-black border border-zinc-700 text-pink-400"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-
-          <div className="flex gap-4">
-
-            <a
-              href={project.live}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-pink-500 hover:bg-pink-600 hover:scale-105 hover:-translate-y-1 transition duration-300 px-4 py-2 rounded-xl text-sm font-semibold shadow-lg"
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {projects.map((project) => (
+            <div
+              key={project.title}
+              className="bg-zinc-900 border border-zinc-800 rounded-3xl overflow-hidden hover:-translate-y-2 hover:border-pink-500 transition duration-300"
             >
-              Live Demo
-            </a>
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-zinc-700 hover:border-pink-500 hover:text-pink-400 hover:scale-105 hover:-translate-y-1 transition duration-300 px-4 py-2 rounded-xl text-sm font-semibold"
-            >
-              GitHub
-            </a>
-            <a
-              href={project.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border border-zinc-700 hover:border-pink-500 hover:text-pink-400 hover:scale-105 hover:-translate-y-1 transition duration-300 px-4 py-2 rounded-xl text-sm font-semibold"
-            >
-              Linkedin
-            </a>
+              <div className="h-48 bg-gradient-to-br from-pink-500/30 to-purple-500/20"></div>
 
-          </div>
+              <div className="p-6">
+                <h3 className="text-2xl font-semibold mb-4">
+                  {project.title}
+                </h3>
 
+                <p className="text-gray-400 leading-7 mb-6">
+                  {project.desc}
+                </p>
+
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {project.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="px-3 py-1 rounded-full text-sm bg-black border border-zinc-700 text-pink-400"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                <div className="flex flex-wrap gap-3">
+                  {project.live && (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-pink-500 hover:bg-pink-600 px-4 py-2 rounded-xl text-sm font-semibold transition"
+                    >
+                      Live Demo
+                    </a>
+                  )}
+
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border border-zinc-700 hover:border-pink-500 hover:text-pink-400 px-4 py-2 rounded-xl text-sm font-semibold transition"
+                  >
+                    GitHub
+                  </a>
+
+                  <a
+                    href={project.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border border-zinc-700 hover:border-pink-500 hover:text-pink-400 px-4 py-2 rounded-xl text-sm font-semibold transition"
+                  >
+                    LinkedIn
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
-      </div>
-
-    ))}
-
-  </div>
-</section>
+      </section>
     </div>
   );
 }
