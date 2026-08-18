@@ -24,7 +24,6 @@ export default function App() {
     "Git",
     "GitHub",
     "Responsive Design",
-    "Figma (Learning)",
     "C Programming",
   ];
 
@@ -34,7 +33,7 @@ export default function App() {
       desc: "Modern MERN admin dashboard with authentication, product management, categories, analytics, image uploads, and responsive UI.",
       tags: [
         "React",
-        "Redux Toolkit",
+        "Context Api",
         "Node.js",
         "MongoDB",
         "JWT",
@@ -52,30 +51,10 @@ export default function App() {
       github: "https://github.com/codeTukai",
       linkedin: "https://www.linkedin.com/in/tukaighosh753",
     },
-
     {
-      title: "Authentication System",
-      desc: "Complete MERN authentication with JWT, OTP verification, email verification, password reset, and protected routes.",
-      tags: ["React", "Redux Toolkit", "Node.js", "MongoDB"],
-      live: "https://redux-mega.vercel.app",
-      github: "https://github.com/codeTukai",
-      linkedin: "https://www.linkedin.com/in/tukaighosh753",
-    },
-
-    {
-      title: "Productivity Mobile App",
-      desc: "Cross-platform productivity app built with React Native and Expo featuring a clean UI and modern mobile experience.",
-      tags: ["React Native", "Expo", "TypeScript"],
+      title: "Youtube Backend System",
+      desc: "RESTful backend API for video management, user authentication, comments, subscriptions, and role-based access control.",
       live: null,
-      github: "https://github.com/codeTukai",
-      linkedin: "https://www.linkedin.com/in/tukaighosh753",
-    },
-
-    {
-      title: "Todo Application",
-      desc: "Task management application built using React Context API with complete CRUD functionality and responsive design.",
-      tags: ["React", "Context API", "CRUD"],
-      live: "https://todo-app-sigma-flax-45.vercel.app/",
       github: "https://github.com/codeTukai",
       linkedin: "https://www.linkedin.com/in/tukaighosh753",
     },
@@ -83,11 +62,11 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* Hero */}
+     
       <section className="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <p className="text-pink-500 font-semibold tracking-widest uppercase mb-3">
-            Frontend Developer • React Developer
+            Frontend Developer | Backend Developer | Full-Stack Developer 
           </p>
 
           <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
@@ -120,7 +99,7 @@ export default function App() {
           </div>
         </div>
 
-        {/* About */}
+        
         <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
           <h2 className="text-2xl font-bold text-pink-500 mb-6">
             About Me
@@ -136,7 +115,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* Skills */}
+      
       <section className="max-w-7xl mx-auto px-6 py-16">
         <h2 className="text-4xl font-bold mb-8">
           Skills <span className="text-pink-500">& Tech Stack</span>
