@@ -39,25 +39,35 @@ export default function App() {
         "JWT",
       ],
       live: "https://admin-repo-olive.vercel.app",
-      github: "https://github.com/codeTukai",
+      github: "https://github.com/codeTukai/Admin_Dashboard",
       linkedin: "https://www.linkedin.com/in/tukaighosh753",
     },
+    {
+      title: "Content Management System",
+      desc: "Full-stack content management system for creating, editing, deleting, sharing, and organizing content, with support for YouTube videos and Twitter/X posts, secure authentication, and a responsive admin dashboard.",
+      tags: [
+        "React",
+        "TypeScript",
+        "Custom Hooks",
+        "Node.js",
+        "MongoDB",
+        "JWT",
+      ],
+      live: "content-platform-lime-gamma.vercel.app",
+      github: "https://github.com/codeTukai/content-platform",
+      linkedin: "https://www.linkedin.com/in/tukaighosh753",
+    },
+    
 
     {
       title: "Hospital Management System",
       desc: "Backend API for managing patients, doctors, appointments, medical records, authentication, billing, and role-based access.",
       tags: ["Node.js", "Express", "MongoDB", "JWT", "REST API"],
       live: null,
-      github: "https://github.com/codeTukai",
+      github: "https://github.com/codeTukai/hospital-erp-backend",
       linkedin: "https://www.linkedin.com/in/tukaighosh753",
     },
-    {
-      title: "Youtube Backend System",
-      desc: "RESTful backend API for video management, user authentication, comments, subscriptions, and role-based access control.",
-      live: null,
-      github: "https://github.com/codeTukai",
-      linkedin: "https://www.linkedin.com/in/tukaighosh753",
-    },
+    
   ];
 
   return (
@@ -133,7 +143,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* Projects */}
+     
       <section className="max-w-7xl mx-auto px-6 py-20">
         <h2 className="text-4xl font-bold mb-10">
           Featured <span className="text-pink-500">Projects</span>
