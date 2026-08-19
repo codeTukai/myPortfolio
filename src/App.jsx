@@ -53,7 +53,7 @@ export default function App() {
         "MongoDB",
         "JWT",
       ],
-      live: "content-platform-lime-gamma.vercel.app",
+      live: "https://content-platform-lime-gamma.vercel.app",
       github: "https://github.com/codeTukai/content-platform",
       linkedin: "https://www.linkedin.com/in/tukaighosh753",
     },
